@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+ 
+  
+  
+}
+#navbar{
+    height: 60px;
+   width: 100%;
+    background-color: rgb(5, 110, 14);
+   position: fixed;
+   top: 0px;
+   
+    
+
+}
+.brand{
+   
+   display: flex; 
+   align-items: center;
+
+}
+.navinfo{
+    display: inline-block;
+}
+a{
+    margin-left: 190px;
+    margin-right: 190px;
+}
+button{
+    background-color: #a3b18a;
+}
+
+.rolex{
+    font-size: 45px;
+    font-weight: bold;
+   
+   
+  
+   
+
+}
+.logo{
+    height: 40px;
+    
+
+}
+main{
+    height: 550px;
+   
+   background-color: #a3b18a;
+    
+}
