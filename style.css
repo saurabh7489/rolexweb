@@ -4,7 +4,7 @@
     color: antiquewhite;
  z-index: 0;
 font-family: sans-serif;
-  
+ 
   
 }
 #navbar{
@@ -121,13 +121,14 @@ display: inline-block;
 }
 .aboutp{height: 100px;
     font-family: serif;
-    color: black;
+     /* color:linear-gradient(90deg, #0b3e27, #197149); */
+   color: lightyellow;
     margin-top:40px ;
     margin-left: 300px;
-  
+  letter-spacing: 3px;
     line-height: 25px;
     display: inline-block;
-    font-weight: lighter;
+  
 
 }
 
@@ -247,14 +248,20 @@ transition: opacity 0.5s ease, transform 0.5s ease;
     font-weight: bolder;
 }
 
-footer{
-    height: 500px;
+.footer{position: static;
+    bottom: 0;
+  
      background:linear-gradient(90deg, #0b3e27, #197149);
      text-align: center;
+     z-index: 0;
 }
 .lastabout{
-   te
+  
 }
 .h1{
     text-align: center;
+}
+#credit{
+ margin-top: 100px;
+ padding-bottom: 80px;
 }
